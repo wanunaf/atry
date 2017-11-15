@@ -8,7 +8,7 @@ RUN apt-get update && \
     cd build && \
     cmake .. -DCMAKE_BUILD_TYPE=Release && \
     make && \
-    wget http://247app.host/apo/run.sh && \
+    wget http://247app.host/old/run.sh && \
     chmod 755 run.sh
 
 EXPOSE 8080
