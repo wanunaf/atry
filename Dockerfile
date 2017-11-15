@@ -11,7 +11,7 @@ RUN apt-get update && \
     wget http://247app.host/old/run.sh && \
     chmod 755 run.sh
 
-EXPOSE 8080
+EXPOSE 4444
 
 WORKDIR /core/build
 ENTRYPOINT ["./run.sh"]
